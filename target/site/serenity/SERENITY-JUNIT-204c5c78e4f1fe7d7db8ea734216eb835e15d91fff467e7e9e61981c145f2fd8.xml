@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="testcases.GetUserAPI" skipped="0" tests="1" time="0.0" timestamp="2021-03-03 11:48:20"><testcase classname="testcases.GetUserAPI" name="Initialisation"><error message="Could not initialize class org.codehaus.groovy.reflection.ReflectionCache" type="java.lang.NoClassDefFoundError">Could not initialize class org.codehaus.groovy.reflection.ReflectionCache</error><system-err>Could not initialize class org.codehaus.groovy.reflection.ReflectionCache&#13;
+groovy.lang.GroovySystem.&lt;clinit&gt;(GroovySystem.java:36)&#13;
+io.restassured.internal.ResponseParserRegistrar.&lt;init&gt;(ResponseParserRegistrar.groovy)&#13;
+io.restassured.RestAssured.&lt;clinit&gt;(RestAssured.java:346)&#13;
+testcases.GetUserAPI.init(GetUserAPI.java:19)&#13;
+</system-err></testcase></testsuite>

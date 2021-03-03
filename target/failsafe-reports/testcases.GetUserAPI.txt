@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: testcases.GetUserAPI
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4.459 s <<< FAILURE! - in testcases.GetUserAPI
+testcases.GetUserAPI  Time elapsed: 1.398 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.codehaus.groovy.reflection.ReflectionCache
+	at testcases.GetUserAPI.init(GetUserAPI.java:19)
+
