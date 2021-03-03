@@ -26,5 +26,12 @@ public class GetUserAPI {
 		Response httpResponse = SerenityRest.given().when().get("2");
 		httpResponse.then().statusCode(200);
 	}
+	
+	@Title(value = "To print the response on the console")
+	@Test
+	public void responseTest() {
+		Response httpResponse = SerenityRest.given().when().get("2");
+		httpResponse.prettyPrint();
+	}
 
 }
